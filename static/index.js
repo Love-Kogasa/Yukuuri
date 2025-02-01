@@ -24,7 +24,7 @@ function download( text, voice ){
 
 function zh( ele ){
   iszh = !iszh
+  Qmsg.success( "已" + ele.innerHTML )
   ele.innerHTML = ele.innerHTML === "启用中文" ?
     "禁用中文": "启用中文"
-  Qmsg.success( "已" + ele.innerHTML )
 }
